@@ -1,0 +1,93 @@
+/* 滚动条整体 */
+body::-webkit-scrollbar{
+    background:#eee;
+    width:10px;
+    border-radius:6px;
+}
+/* 滚动条滑块 */
+body::-webkit-scrollbar-thumb{
+    background:#ddd;
+    border-radius:6px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background:#ccc;
+}
+body{
+    padding-left:40px;
+    /* background:#ddd; */
+    /* background-image: linear-gradient(to right, #ccc, #fff, #fff , #fff); */
+}
+
+#nav-side{
+    width:50px;
+    overflow: hidden;
+    height:100vh;
+    background:white;
+    transition:.2s;
+
+    position: fixed;
+    left:0;
+    z-index:99;
+    border-top-right-radius:10px;
+    box-shadow:0 0 8px rgba(0,0,0,.4);
+}
+#nav-side:hover{
+    width:160px;
+}
+#nav-side:hover>div.list-group>a.list-group-item{
+    font-size:20px;
+}
+
+#nav-side>div.list-group{
+    height:100%;
+}
+#nav-side>div.list-group>a.list-group-item{
+    overflow: hidden;
+    padding:13px 13px;
+    width:200px;
+    height:40px;
+    background:none;
+    border-radius:0;
+    border:none;
+    color:black;;
+    transition:.2s;
+    font-size:20px;
+    height:50px;
+}
+#nav-side>div.list-group>a.list-group-item:hover{
+    color:pink;
+    transition:.2s;
+}
+#nav-side>div.list-group>a.list-group-item>span{
+    margin-right:40px;
+}
+
+
+.head-img{
+    padding:13px 10px;
+    transition:.2s;
+}
+.head-img>img{
+    transition:.2s;
+}
+.head-img>img:hover{
+    transform:rotateZ(360deg);
+}
+.head-img>h3{
+    text-align: center;
+    width:80px;
+    height:0;
+    margin:0;
+    transition:.2s;
+    overflow: hidden;
+}
+#nav-side:hover .head-img{
+    padding:40px 40px;
+}
+#nav-side:hover .head-img>h3{
+    display:block;
+    text-align: center;
+    height:26px;
+    transition:.2s;
+    margin-top:20px;
+}

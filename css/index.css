@@ -1,0 +1,32 @@
+.head-name{
+    position: relative;
+    text-align: center;
+    height:100vh;
+    background:url(../img/9.jpg) no-repeat center 100% fixed;
+}
+.head-name h1{
+    position:absolute;
+    top:45%;
+    width:100%;
+    margin:0;
+    color:white;
+    font-size:100px;
+    text-shadow:2px 4px 10px rgba(0,0,0,.2);
+}
+.head-name .down1{
+    width:100%;
+    display:inline-block;
+    cursor: pointer;
+    color:white;
+    font-size:24px;
+    text-shadow:2px 4px 10px rgba(0,0,0,.2);
+    opacity: .8;
+    position:absolute;
+    bottom:0;
+    left:0;
+    line-height: 40px;
+}
+.content1{
+    /* background:#c20c0c; */
+    border-radius:10px;
+}
