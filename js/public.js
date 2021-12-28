@@ -1,9 +1,10 @@
 $(function(){
-    $(window).on('load',function(){
+    $('.loading1>img').on('load',function(){
         $('.loader').fadeOut(400)
         $('#div-body').css({
             'overflow-y':'auto',
         })
         $('.head-name').slideDown(600)
     })
+    $('.loading1').hide()
 })
