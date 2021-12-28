@@ -1,7 +1,7 @@
 $(function(){
     console.log('1')
-    $('.loading1>img').on('load',function(){
-        console.log('图片加载完成')
+    $(window).on('load',function(){
+        console.log('页面加载完成')
         $('.loader').fadeOut(400)
         console.log('加载图隐藏')
         $('#div-body').css({
