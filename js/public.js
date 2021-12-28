@@ -7,6 +7,6 @@ $(function(){
         $('.head-name').slideDown(600)
         console.log('图片加载完成')
     })
-    $('.loading1').hide()
-    console.log('已隐藏')
+    // $('.loading1').hide()
+    // console.log('已隐藏')
 })
