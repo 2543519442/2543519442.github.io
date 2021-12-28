@@ -117,6 +117,8 @@ body{
     height:100vh;
     z-index:999;
     
+    text-align: center;
+    font-size:24px;
     align-content: center;
     justify-content: center;
     align-items: center;
