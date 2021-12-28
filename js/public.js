@@ -4,5 +4,6 @@ $(function(){
         $('#div-body').css({
             'overflow-y':'auto',
         })
+        $('.head-name').slideDown(600)
     })
 })
