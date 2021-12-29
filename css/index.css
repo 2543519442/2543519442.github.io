@@ -9,7 +9,7 @@
     background-position:center bottom;
     background-attachment: fixed;
     /* transition:.2s; */
-    display:none;
+    /* display:none; */
 }
 .head-name h1{
     position:absolute;
