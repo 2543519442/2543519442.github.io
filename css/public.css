@@ -23,7 +23,7 @@ body{
     /* background-image: linear-gradient(to right, #ccc, #fff, #fff , #fff); */
     
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 
 #nav-side{
