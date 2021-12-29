@@ -111,11 +111,11 @@ body{
     top:0;
     left:0;
     display:flex;
-    background:#00aeef;
+    background:#00aeef20;
     /* background:black; */
     width:100vw;
     height:100vh;
-    z-index:999;
+    /* z-index:999; */
     
     text-align: center;
     font-size:24px;
@@ -124,4 +124,7 @@ body{
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: column;
+}
+.loader .loader-img{
+    z-index:999;
 }
