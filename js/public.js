@@ -1,4 +1,6 @@
 $(function(){
+    console.log(document.images)
+
     console.log('1')
     $(window).on('load',function(){
         console.log('页面加载完成')
