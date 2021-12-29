@@ -1,16 +1,16 @@
 /* 滚动条整体 */
 *::-webkit-scrollbar{
-    background:#eee;
-    width:10px;
+    background:none;
+    width:8px;
     /* border-radius:6px; */
 }
 /* 滚动条滑块 */
 *::-webkit-scrollbar-thumb{
-    background:#ddd;
+    background:#8884;
     border-radius:6px;
 }
 *::-webkit-scrollbar-thumb:hover{
-    background:#ccc;
+    background:#8888;
 }
 body{
     overflow: hidden;
