@@ -15,6 +15,7 @@
             alert("123")
             $('.d1').css('color','red')
             $('#main',parent.document).css('color','red')
+            window.parent.postMessage("传递的参数", '*')
         })
     </script>
 </body>
