@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <button onclick="alert(123)">test</button>
-
-    
+    <div class="d1">two</div>
+    <button class="btn">按钮</button>
+    <script>
+        $('.btn').click(function(){
+            alert("123")
+            $('.d1').css('color','red')
+            $('#main',parent.document).css('color','red')
+        })
+    </script>
 </body>
 </html>
